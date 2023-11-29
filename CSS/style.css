@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.mainBody {
+    margin: -10px;
+}
+
+.header {
+    font-family: 'Lobster', sans-serif;
+    height: 259px;
+    background-image: url("../images/background.jpg");
+    margin-top: -60px;
+}
+
+.header h1 {
+    font-size: 80px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.header h2 {
+    font-size: 40px;
+    text-align: center;
+    color: aqua;
+}
+.main {
+    background: darkred;
+    margin-top: -20px;
+}
+
+
+#actionFilms {
+    color: darkblue;
+    text-decoration-line: underline;
+}
+
+#comedyFilms {
+    color: darkcyan;
+    text-decoration-line: underline;
+}
+
+#historyFilms {
+    color: brown;
+    text-decoration-line: underline;
+}
+
+table{
+    align-self: center;
+    text-align-all: center;
+}
+td {
+    width: 250px;
+    text-align: center;
+}
+li {
+    font-family: 'Lobster', sans-serif;
+    list-style: none;
+    text-align: center;
+    font-size: 32px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    transition: transform 0.3s ease;}
+a:hover {
+    transform: scale(1.2);
+}
+
+.main div:nth-child(2) {
+    background: lightcoral;
+}
+.main div:nth-child(4) {
+    background: chocolate;
+}
+
+.main div:nth-child(6) {
+    background: coral;
+}
+
+
