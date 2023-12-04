@@ -1,4 +1,4 @@
-# Git guid from Yandex(https://practicum.yandex.ru/trainer/git-basics)
+# Git guid from XXX(https://google.com)
 
 # Шпаргалка markdown
 
