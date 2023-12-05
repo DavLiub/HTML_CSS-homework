@@ -38,15 +38,15 @@
     text-align: center;
 }
 
-.mComedy div:nth-child(1) {left: 0;}
-.mComedy div:nth-child(2)  {left: 40%;}
-.mComedy div:nth-child(3)  {right: 0;}
-.mAction div:nth-child(1) {left: 0;}
-.mAction div:nth-child(2)  {left: 40%;}
-.mAction div:nth-child(3)  {right: 0;}
-.mHistory div:nth-child(1) {left: 0;}
-.mHistory div:nth-child(2)  {left: 40%;}
-.mHistory div:nth-child(3)  {right: 0;}
+.mComedy div:nth-child(2) {left: 0;}
+.mComedy div:nth-child(3)  {left: 40%;}
+.mComedy div:nth-child(4)  {right: 0;}
+.mAction div:nth-child(2) {left: 0;}
+.mAction div:nth-child(3)  {left: 40%;}
+.mAction div:nth-child(4)  {right: 0;}
+.mHistory div:nth-child(2) {left: 0;}
+.mHistory div:nth-child(3)  {left: 40%;}
+.mHistory div:nth-child(4)  {right: 0;}
 
 .reklama {
     position: fixed;
