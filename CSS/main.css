@@ -1,0 +1,70 @@
+.mComedy, .mAction, .mHistory {
+    height: 600px;
+    width: 77%;
+    left: 21%;
+    position: absolute;
+    margin: 2% 0;
+}
+
+.menu {
+    height: 2100px;
+    width: 19%;
+    background: indianred;
+    left: 0;
+    position: absolute;
+}
+
+.mComedy  { top: 0; background: blanchedalmond;}
+.mAction  { top: 700px; background-color: lightslategray;}
+.mHistory { top: 1400px; background-color: tan;}
+
+.main h2 {
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Lobster', sans-serif;
+    color: darkblue;
+    background-color: darkgoldenrod;
+}
+.mFilm {
+    position: absolute;
+    align-content: center;
+    height: 90%;
+    width: 20%;
+    padding: 20px;
+    border: none;
+}
+
+.mFilm p{
+    text-align: center;
+}
+
+.mComedy div:nth-child(1) {left: 0;}
+.mComedy div:nth-child(2)  {left: 40%;}
+.mComedy div:nth-child(3)  {right: 0;}
+.mAction div:nth-child(1) {left: 0;}
+.mAction div:nth-child(2)  {left: 40%;}
+.mAction div:nth-child(3)  {right: 0;}
+.mHistory div:nth-child(1) {left: 0;}
+.mHistory div:nth-child(2)  {left: 40%;}
+.mHistory div:nth-child(3)  {right: 0;}
+
+.reklama {
+    position: fixed;
+    top: 40%;
+    left: 3%;
+
+}
+
+.menu li {
+    list-style: none;
+    text-align: left;
+    font-size: 40px;
+    font-family: 'Lobster', sans-serif;
+    color: aliceblue;
+    margin: 30px;
+    padding: 10px;
+}
+
+
+
+

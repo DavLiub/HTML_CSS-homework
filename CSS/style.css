@@ -1,65 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import "header.css";
+@import "main.css";
 
 * {
     margin: 0;
     padding: 0;
 }
+.mainBody {
+    width: 100%;
+    position: sticky;
+}
 
 .header {
+    height: 220px;
+    width: 100%;
     font-family: 'Lobster', sans-serif;
-    height: 259px;
     background-image: url("../images/background.jpg");
     background-position: center;
-}
-
-.header h1 {
-    font-size: 80px;
-    text-align: center;
-    color: whitesmoke;
-}
-
-.header h2 {
-    font-size: 40px;
-    text-align: center;
-    color: aqua;
+    position: relative;
+    top: 0;
 }
 
 .main {
-    background: darkred;
-    padding: 20px;
-}
-
-.table {
-    background: lightcoral;
-    margin: 20px;
-}
-li {
-    list-style: none;
-    text-align: center;
-    font-size: 32px;
-    font-family: 'Lobster', sans-serif;
-    color: blueviolet;
+    height: 2100px;
+    width: 96%;
+    position: relative;
     background-size: cover;
     animation: bg-сhange 20s infinite;
-    margin: 20px 0px;
-    padding: 10px;
+    padding: 0% 4% 1% 0;
 }
+
+.footer {
+    top: 2320px;
+    width: 100%;
+    background: lightslategray;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+}
+
 .imgList {
     weight: 30px;
     height: 30px;
 }
-table{
-    align-self: center;
-    text-align-all: center;
-    padding: 10px;
-}
-td {
-    width: 250px;
-    text-align: center;
-}
 
 a {
     color: black;
+    font-stretch: extra-condensed;
     text-decoration: none;
     display: inline-block;
     transition: transform 0.3s ease;
@@ -69,51 +56,15 @@ a:hover {
 }
 
 
-#actionFilms {
-    color: darkblue;
-    text-decoration-line: underline;
-}
-
-#comedyFilms {
-    color: blueviolet;
-    text-decoration-line: underline;
-}
-
-#historyFilms {
-    color: brown;
-    text-decoration-line: underline;
-}
-
-.main>ul>div:nth-child(1)
-{
-    background-color: blanchedalmond;
-}
-
-.main>ul>div:nth-child(2)
-{
-    background-color: lightslategray;
-}
-.main>ul>div:nth-child(3)
-{
-    background-color: tan;
-}
-
-
 @keyframes bg-сhange {
      from {
-        background-color: azure;
-    }
-    25% {
-        background-color: deepskyblue;
+        background-color: tan;
     }
     50% {
-        background-color: aqua;
-    }
-    75% {
-        background-color: deepskyblue;
+        background-color: cadetblue;
     }
     to {
-        background-color: azure;
+        background-color: peru;
     }
 }
 
